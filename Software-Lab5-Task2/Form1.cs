@@ -13,7 +13,7 @@ namespace Software_Lab5_Task2
         public Form1()
         {
             InitializeComponent();
-            Text = "Пример строки состояния";
+            Text = "РџСЂРёРјРµСЂ СЃС‚СЂРѕРєРё СЃРѕСЃС‚РѕСЏРЅРёСЏ";
             CenterToScreen();
             BackColor = Color.CadetBlue;
             currentCheckedItem = toolStripMenuItemTime;
@@ -48,7 +48,7 @@ namespace Software_Lab5_Task2
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-            toolStripStatusLabelState.Text = string.Format($"Координаты мыши: {e.X}, {e.Y}");
+            toolStripStatusLabelState.Text = string.Format($"РљРѕРѕСЂРґРёРЅР°С‚С‹ РјС‹С€Рё: {e.X}, {e.Y}");
         }
     }
 }
